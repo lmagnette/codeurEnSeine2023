@@ -3,6 +3,6 @@ package be.lomagnette;
 import io.quarkus.test.junit.QuarkusIntegrationTest;
 
 @QuarkusIntegrationTest
-public class GreetingResourceIT extends GreetingResourceTest {
+public class PawResourceIT extends PawResourceTest {
     // Execute the same tests but in packaged mode.
 }
