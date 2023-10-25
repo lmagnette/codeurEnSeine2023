@@ -25,4 +25,9 @@ public class DinosaurController {
         return dinosaurRepository.findAll();
     }
 
+    @GetMapping("/random")
+    public Dinosaur random(){
+        return dinosaurRepository.findRandom();
+    }
+
 }
