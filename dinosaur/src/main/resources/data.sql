@@ -1,0 +1,9 @@
+delete from dinosaur;
+
+INSERT INTO dinosaur (name, description, fun_fact) VALUES
+('Tyrannosaure Rex', 'Un dinosaure carnivore qui a vécu pendant la période du Crétacé supérieur. C''est l''un des dinosaures les plus connus et il avait une morsure puissante.', 'Le T. Rex avait de petits bras, ce qui fait l''objet de nombreuses blagues parmi les paléontologues.'),
+('Velociraptor', 'Un petit dinosaure carnivore qui a vécu pendant la période du Crétacé supérieur. Il avait un corps à plumes et était probablement très agile.', 'Malgré leur représentation dans les films, les Vélociraptors étaient en fait de la taille d''une grande dinde.'),
+('Brachiosaure', 'Un dinosaure herbivore massif avec un long cou et une longue queue. Il a vécu pendant la période du Jurassique supérieur et est connu pour sa hauteur imposante.', 'Le nom Brachiosaure signifie "lézard à bras" en raison de ses longues pattes avant.'),
+('Triceratops', 'Un dinosaure herbivore connu pour ses trois cornes et une grande collerette. Il a vécu pendant la période du Crétacé supérieur.', 'On pense que le Tricératops utilisait ses cornes pour se défendre contre des prédateurs comme le T. Rex.'),
+('Stégosaure', 'Un dinosaure herbivore avec de grandes plaques osseuses le long de son dos et des pointes acérées sur sa queue. Il a vécu pendant la période du Jurassique supérieur.', 'La fonction des plaques du Stégosaure reste un mystère. Elles auraient pu être utilisées pour l''exposition, la défense ou la régulation de la température.'),
+('Ptérodactyle', 'Techniquement pas un dinosaure, mais un type de reptile volant qui vivait aux côtés des dinosaures. Connu pour son envergure et sa capacité à voler.', 'Les Ptérodactyles sont souvent confondus avec les dinosaures, mais ils sont en fait des ptérosaures, un groupe différent de reptiles.');
