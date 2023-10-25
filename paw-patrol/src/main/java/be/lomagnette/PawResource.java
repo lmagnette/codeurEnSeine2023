@@ -1,5 +1,6 @@
 package be.lomagnette;
 
+import io.smallrye.common.annotation.RunOnVirtualThread;
 import io.smallrye.mutiny.Uni;
 import jakarta.ws.rs.Consumes;
 import jakarta.ws.rs.GET;
@@ -17,5 +18,11 @@ public class PawResource {
     @GET
     public Uni<List<Paw>> getAll(){
         return Paw.listAll();
+    }
+
+    @GET
+    @Path("/random")
+    public Uni<Paw> getRandom(){
+        return Paw.findRandom();
     }
 }
