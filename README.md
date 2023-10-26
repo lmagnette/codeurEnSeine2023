@@ -11,6 +11,8 @@ The project consists of two applications:
 
 Both applications offer a unique service that generates kid stories based on dinosaurs and members of the Paw Patrol.
 
+Here's the link to the slides of the talk: [Spring boot vs Quarkus: Who will reign in 2023?](https://www.slideshare.net/LocMagnette/quarkus-vs-spring-boot-quel-est-le-framework-qui-rgnera-en-matre-en-2023)
+
 ## Features
 
 The demo allows us to witness the potential and capabilities of both Spring Boot and Quarkus, thereby creating a platform to evaluate which among them may lead the Java world in 2023.
